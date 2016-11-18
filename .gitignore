@@ -1,0 +1,5 @@
+# Secret keys etc
+.ruby-env
+
+# ignoring .ruby-version since we are only using it to bootstrap environments
+.ruby-version
