@@ -8,7 +8,7 @@ def send_sms(to, from, body)
      { "To" => to, "From" => from, "Body" => body})
     result = JSON.parse(response.body)
     if response.success?
-      puts result["sid"]
+      puts result # peek at the full result #result["sid"]
     else
       puts result["message"]
     end

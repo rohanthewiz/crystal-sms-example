@@ -1,9 +1,9 @@
 .idea/
 
-sms
-
-# Secret keys etc
+# Don't expose secret keys etc
 .ruby-env
 
-# ignoring .ruby-version since we are only using it to bootstrap environments
-.ruby-version
+# leaving .ruby-version in the project since it is needed if using RVM to load environment variables
+#.ruby-version
+
+sms
