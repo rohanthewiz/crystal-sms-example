@@ -1,0 +1,5 @@
+# Sending SMS with Crystal
+
+1. You will need to have an account at Twilio. Sign up for a free account at https://www.twilio.com/try-twilio
+2. You need to copy `ruby-env.sample` to `ruby-env` and put in your Twilio creds and phone number
+3. Run with `crystal sms.cr` or build the executable with `crystal build sms.cr` 

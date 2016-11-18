@@ -1,3 +1,7 @@
+.idea/
+
+sms
+
 # Secret keys etc
 .ruby-env
 
