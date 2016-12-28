@@ -15,4 +15,5 @@ def send_sms(to, from, body)
   end
 end
 
-send_sms(ENV["MY_NUMBER"], ENV["MY_TWILIO_NUMBER"], "Hello from Crystal!")
+msg = ARGV.size > 0 ? ARGV[0] : "Hello from Crystal Twilio"
+send_sms(ENV["MY_NUMBER"], ENV["MY_TWILIO_NUMBER"], msg)
