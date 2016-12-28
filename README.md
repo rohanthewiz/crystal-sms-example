@@ -10,5 +10,5 @@ Feel free to load the environment variables by other means though.
 5. To quickly send a message to a phone number (this requires `crystal build` from above) run for example:
 
 ```
-`./sms 8171234567 "Waas Up?"`  
+./sms 8171234567 "Waas Up?"
 ```
